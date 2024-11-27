@@ -3,7 +3,7 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nex
 
  const Header = () => {
   return (
-    <Navbar position="static" className='bg-transparent'>
+    <Navbar position="sticky" className='bg-transparent'>
       <NavbarBrand>
         <img src="/img/Logo.png" alt="" />
       </NavbarBrand>
