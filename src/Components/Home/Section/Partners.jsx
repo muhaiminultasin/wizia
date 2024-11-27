@@ -26,8 +26,8 @@ const Partners = () => {
         <p className='text-center text-primary uppercase'>our trusted partners</p>
       <div className='grid grid-cols-2 md:grid-cols-5'>
         {
-          logos.map( ({img})=> {
-            return <img src={img} alt="" className='mx-auto'/>
+          logos.map( ({img},i)=> {
+            return <img key={i} src={img} alt="" className='mx-auto'/>
           })
         }
       </div>
