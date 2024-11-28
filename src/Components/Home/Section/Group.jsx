@@ -24,8 +24,8 @@ const Group = () => {
   return (
     <section className='px-[140px] py-10 grid grid-cols1 md:grid-cols-3 gap-5'>
       {
-        images.map( ({img,title,desc}) => {
-            return <div>
+        images.map( ({img,title,desc},i) => {
+            return <div key={i}>
                 <div className='w-[60px] '>
                     <img src={img} alt="" className='w-fit'/>
                 </div>
