@@ -39,7 +39,7 @@ const Review = () => {
       };
 
   return (
-    <section className='px-[140px] py-10 text-center'>
+    <section className='px-[20] md:px-[140px] py-10 text-center'>
         <Slider {...settings} className=''>
             {
                 ReviewContent.map(({img, name, text,title},i) => {

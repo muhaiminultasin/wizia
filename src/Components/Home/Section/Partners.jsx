@@ -22,9 +22,9 @@ const Partners = () => {
   ]
 
   return (
-    <section className='px-[140px] py-10 bg-[#07292F]'>
+    <section className='px-[20px] md:px-[140px] py-10 bg-[#07292F]'>
         <p className='text-center text-primary uppercase'>our trusted partners</p>
-      <div className='grid grid-cols-2 md:grid-cols-5'>
+      <div className='grid grid-cols-2 md:grid-cols-5 '>
         {
           logos.map( ({img},i)=> {
             return <img key={i} src={img} alt="" className='mx-auto'/>

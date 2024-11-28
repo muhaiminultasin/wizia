@@ -18,13 +18,13 @@ const Effort = () => {
     ]
 
   return (
-    <section className=' px-[80px] my-10 bg-[#07292F]'>
-      <div className='px-[40px] py-10 w-[60%] flex flex-col gap-4'>
+    <section className=' px-[20px] md:px-[80px] my-10 bg-[#07292F]'>
+      <div className='px-[40px] py-10 w-full md:w-[60%] flex flex-col gap-4'>
         <h1 className='font-[600] text-[32px] leading-[39px]'>Allocate effort where your reps make an inpact.</h1>
         <h1 className='font-[600] text-[32px] leading-[39px] text-primary'><i>Let us handle the rest.</i></h1>
         <p className='font-[300] text-[20px] '>Keep your reps “in the air” -- out in the field and on the phone where they can build relationships.</p>
 
-        <div className='mt-10 grid grid-cols-3 gap-5'>
+        <div className='mt-10 grid grid-cols-1 md:grid-cols-3 gap-5'>
             {
                 efforts.map( ({percent, text}, i) => {
                     return <div key={i}>
