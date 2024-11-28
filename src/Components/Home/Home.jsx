@@ -4,19 +4,24 @@ import Hero from './Section/Hero'
 import Partners from './Section/Partners'
 import Group from './Section/Group'
 import Train from './Section/Train'
-import SimpleSlider from '../Sliders'
 import Review from './Section/Review'
+import Effort from './Section/Effort'
+import GetStared from './Section/GetStared'
+import Footer from './Section/Footer'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header/>
       <Hero/>
       <Partners/>
       <Group/>
       <Train/>
       <Review/>
-    </div>
+      <Effort/>
+      <GetStared/>
+      <Footer/>
+    </>
   )
 }
 
